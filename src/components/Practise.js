@@ -1,11 +1,26 @@
 import React from 'react'
 import Header from './Header'
+import Pro from './Pro'
 
-function Practise() {
+function Practise({data}) {
   return (
      <>
        <Header />
-       <p>Welcome To Practice</p>
+       
+       <div className="list">
+        <p className="HeroHeading">
+        DSA Sheet by Love Babbar
+        </p>
+        <hr />
+      </div>
+       
+
+         {data.map(obj => 
+       <Pro data={obj} />)
+      }
+
+ 
+      
      </>
   )
 }

@@ -2,12 +2,15 @@ import React, { useState, useEffect, useContext } from "react";
 import "./HeroSection.css";
 
 function Pro({ data, id }) {
-  useEffect(async ()=> {
-    const res = await localStorage.getItem(data.position);
-    const states = await JSON.parse(res);
-    setCheckBoxState(states.checkBoxState);
-    setCheckNum(states.checkNum);
-  },[])
+  useEffect(() => {
+    (async () => {
+      const res = await localStorage.getItem(data.position);
+      const states = await JSON.parse(res);
+
+      setCheckBoxState(states.checkBoxState);
+      setCheckNum(states.checkNum);
+    })();
+  }, []);
   const [clicked, setClicked] = useState(false);
   const questionlength = data.questions.length;
 
@@ -18,8 +21,8 @@ function Pro({ data, id }) {
   }
 
   const sum = (array) => {
-    return array.reduce((acc, cur)=> acc+cur, 0)
-  }
+    return array.reduce((acc, cur) => acc + cur, 0);
+  };
 
   var list = [];
   var num = [];
@@ -44,7 +47,10 @@ function Pro({ data, id }) {
     }
     templist[index] = !templist[index];
     setCheckBoxState(templist);
-    await localStorage.setItem(position, JSON.stringify({checkNum, checkBoxState}));
+    await localStorage.setItem(
+      position,
+      JSON.stringify({ checkNum, checkBoxState })
+    );
   }
   const [name, setName] = useState(false);
 
@@ -52,7 +58,7 @@ function Pro({ data, id }) {
     var temp = name;
     temp = !temp;
     setName(temp);
-    console.log(temp);
+    // console.log(temp);
   }
 
   return (

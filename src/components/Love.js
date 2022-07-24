@@ -5,8 +5,8 @@ import {AiOutlineHeart} from 'react-icons/ai';
 import {AiTwotoneHeart} from 'react-icons/ai';
 //  import Table from 'react-bootstrap/Table';
 import Pro from "./Pro";
-import dataDummy from './data.js'
-import Dummy from './dummy'
+// import dataDummy from './data.js'
+// import Dummy from './dummy'
 import Prob from "./Prob";
 
 export default function Love({data} ) {
