@@ -1,0 +1,188 @@
+.list{
+    /* align-items: center; */
+    /* text-align: center; */
+    /* margin: 20px; */
+     width: 50%;
+    margin: 20px 0px 0px 430px; 
+    
+}
+
+.HeroHeading{
+    font-weight: 700;
+    color: #343a40;
+    font-size: 30px;
+    padding-left: 10px;
+    text-align: center;
+/* margin: 20px 20px 20px 20px;  */
+margin-bottom: 13px;
+        
+position: -webkit-sticky;
+position: sticky;
+top: 0;
+}
+.height
+{
+  height: 850px;
+
+}
+.center1 {
+   
+    background-color: rgb(255, 255, 255);
+    font-size: 2rem;
+    border-bottom: 1px  solid;
+    /* border-top: 1px solid ; */
+    margin: 1px;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    padding:    10px  50px 10px 10px; 
+    font-weight: 700;
+    margin: 4px 0px 0px 10px;
+    box-shadow: 0px 0px 6px  rgba(152, 159, 170, 0.6);
+    /* background: #74ebd5;  /* fallback for old browsers */
+/* background: -webkit-linear-gradient(to right, #ACB6E5, #74ebd5);  Chrome 10-25, Safari 5.1-6 */
+/* background: linear-gradient(to right, #ACB6E5, #74ebd5); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
+width: 100%;
+    /* padding: 0.5rem 0.5rem 0.5rem 0.5rem; */
+    /* box-shadow: 0 3px 3px rgb(0 0 0 / 10%); */
+    position: relative;
+    cursor: pointer;
+        
+     display: flex;
+    
+   overflow-x: auto; 
+ 
+}
+.status
+{ 
+   display: flex;
+}
+ 
+.heart
+{
+  /* background-color: red; */
+  padding:4px 0px 0px 10px
+}
+.sol{
+  padding-left:248px;
+  display: flex;
+  /* background-color: green;S */
+ width: 600px;
+   
+}
+.solve
+{
+  /* background-color: red;; */
+  /* width:0% ; */
+  /* padding: 10px; */
+}
+
+.plus {
+  height:1rem;
+  width:1rem;
+  transition: 0.2s ease-in-out;
+  margin: auto;
+  cursor:pointer;
+  /* padding:10px 10px 10px 10px; */
+  /* margin:10px 10px 10px 10px; */
+
+  
+}
+.plus:hover {
+  transform: rotate(45deg);
+  }
+
+.center2
+{
+  width: 50%;
+    margin: 0px 0px 0px 430px;
+}
+ 
+ 
+* {
+    box-sizing: border-box;
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 2px 10px 10px 10px;
+    overflow-x: auto;
+  }
+  
+  .table td,
+  .table th {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    text-align: left;
+    overflow-x: auto;
+
+    /* text-align: left; */
+  }
+  
+  .table th {
+    background-color: #92c9e6;
+    color: #000000;
+  }
+  
+  .table tbody tr:nth-child(even) {
+    background-color: #d1e8f5;
+  }
+  
+  
+@media (max-width: 850px)
+{
+.list  {
+    
+    width: 90%;
+    margin: 20px 0px 0px 0px; 
+    /* background-color: white; */
+    transition: ease all .5s;
+
+  }
+.response  {
+  transition: ease all .5s;
+  width: 50%;
+  margin: 0px 0px 0px 0px; 
+  
+}
+.center2
+{
+  width: 180%;
+    margin: 0px 0px 0px 0px;
+    transition: ease all .5s;
+  
+}
+.sol{
+  padding-left: 10px;
+  transition: ease all .5s;
+  padding-top:6px;
+
+}
+
+.HeroHeading{
+  font-size: 20px;
+  transition: ease all .5s;
+  
+}
+.center1
+{
+  /* background-color: red; */
+   padding: 0px 0px 10px 0px;
+}
+ .solve{
+  /* background-color: green; */
+  width: 50%;
+  padding-top: 5px;
+ }
+
+}
+
+  
+
+
+
+  /*responsive*/
+  
+  
+ 
