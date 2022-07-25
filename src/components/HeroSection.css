@@ -130,34 +130,34 @@ width: 100%;
   }
   
    
-   
-@media (max-width: 1250px)
+/*    
+@media (min-width: 1250px) 
 {
 .list  {
     
-    width: 90%;
-    margin: 20px 0px 0px 0px; 
-    /* background-color: white; */
+   
+    margin-top: 20px ; 
+    
     transition: ease all .5s;
 
   }
 .response  {
   transition: ease all .5s;
   width: 50%;
-  margin: 0px 0px 0px 0px; 
+
   
 }
 .center2
 {
   width: 180%;
-    margin: 0px 0px 0px 0px;
+ 
     transition: ease all .5s;
   
 }
 .sol{
   padding-left: 10px;
   transition: ease all .5s;
-  padding-top:6px;
+  padding-top:6px ;
 
 }
 
@@ -166,26 +166,22 @@ width: 100%;
   transition: ease all .5s;
   
 }
-.center1
-{
-  /* background-color: red; */
-   padding: 0px 0px 10px 0px;
-}
+ 
  .solve{
-  /* background-color: green; */
+  
   width: 50%;
-  padding-top: 5px;
+  padding-top: 5px    ;
  }
 
-}
-
-  @media (min-width:1520px) {
+} */
+ 
+  /* @media (min-width:1620px) {
     
     .list  {
     
       width: 59%;
       padding: 0px 0px 0px 0px; 
-      /* background-color: white; */
+       
       transition: ease all .5s;
       margin: 17px 10px 0px 370px;
   
@@ -217,17 +213,17 @@ width: 100%;
   }
   .center1
   {
-    /* background-color: red; */
+    
      padding: 0px 0px 10px 0px;
   }
    .solve{
-    /* background-color: green; */
+    
     width: 50%;
     padding-top: 5px;
    }
   
-  }
- 
+  } */
+  
   
 
 
@@ -235,4 +231,264 @@ width: 100%;
   /*responsive*/
   
   
+  @media only screen and (max-width: 600px) {
+    .list  {
+    
+      width: 91%;
+      padding: 2px 0px 0px 0px; 
+       
+      transition: ease all .5s;
+      margin: 27px 40px 0px 0px;
+  
+    }
+  /* .response  {
+    transition: ease all .5s;
+    width: 515%;
+    margin: 2px 0px 0px 0px; 
+    
+  } */
+  .center2
+  {
+     width: 90%; 
+      margin: 0px 0px 0px 0px;
+      transition: ease all .5s;
+    
+  }
+  .sol{
+    /* padding-left: 248px; */
+    transition: ease all .5s;
+    padding-top:6px;
+        padding-left: 10px;
+     
+    
+   
+  }
+  
+  .HeroHeading{
+    font-size: 20px;
+    transition: ease all .5s;
+    margin-left: 0px;;
+  }
+  .center1
+  {
+    
+     padding: 0px 0px 10px 0px;
+     
+  }
+   .solve{
+    
+    width: 50%;
+    padding-top: 5px;
+   }
+         
+  }
+
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    .list  {
+    
+      width: 81%;
+      padding: 2px 0px 0px 10px; 
+       
+      transition: ease all .5s;
+      margin: 27px 0px 0px 100px;
+  
+    }
+  /* .response  {
+    transition: ease all .5s;
+    width: 515%;
+    margin: 2px 0px 0px 0px; 
+    
+  } */
+  .center2
+  {
+     width: 80%; 
+      margin: 0px 0px 0px 100px;
+      transition: ease all .5s;
+    
+  }
+  .sol{
+    /* padding-left: 248px; */
+    transition: ease all .5s;
+    padding-top:6px;
+        padding-left: 10px;
+     
+    
+   
+  }
+  
+  .HeroHeading{
+    font-size: 20px;
+    transition: ease all .5s;
+    margin-left: 10px;;
+  }
+  .center1
+  {
+    
+     padding: 0px 0px 10px 0px;
+     
+  }
+   .solve{
+    
+    width: 50%;
+    padding-top: 5px;
+   }
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    .list  {
+    
+      width: 70%;
+      padding: 2px 0px 0px 10px; 
+       
+      transition: ease all .5s;
+      margin: 27px 0px 0px 204px;
+  
+    }
+  /* .response  {
+    transition: ease all .5s;
+    width: 515%;
+    margin: 2px 0px 0px 0px; 
+    
+  } */
+  .center2
+  {
+     width: 70%; 
+      margin: 0px 0px 0px 200px;
+      transition: ease all .5s;
+    
+  }
+  .sol{
+    /* padding-left: 248px; */
+    transition: ease all .5s;
+    padding-top:6px;
+        padding-left: 10px;
+     
+    
+   
+  }
+  
+  .HeroHeading{
+    font-size: 20px;
+    transition: ease all .5s;
+    margin-left: 10px;;
+  }
+  .center1
+  {
+    
+     padding: 0px 0px 10px 0px;
+     
+  }
+   .solve{
+    
+    width: 50%;
+    padding-top: 5px;
+   }
+  }
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    .list  {
+    
+      width: 70%;
+      padding: 2px 0px 0px 10px; 
+       
+      transition: ease all .5s;
+      margin: 27px 0px 0px 204px;
+  
+    }
+  /* .response  {
+    transition: ease all .5s;
+    width: 515%;
+    margin: 2px 0px 0px 0px; 
+    
+  } */
+  .center2
+  {
+     width: 70%; 
+      margin: 0px 0px 0px 200px;
+      transition: ease all .5s;
+    
+  }
+  .sol{
+    /* padding-left: 248px; */
+    transition: ease all .5s;
+    padding-top:6px;
+        padding-left: 10px;
+     
+    
+   
+  }
+  
+  .HeroHeading{
+    font-size: 20px;
+    transition: ease all .5s;
+    margin-left: 10px;;
+  }
+  .center1
+  {
+    
+     padding: 0px 0px 10px 0px;
+     
+  }
+   .solve{
+    
+    width: 50%;
+    padding-top: 5px;
+   }
+  }
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    .list  {
+    
+      width: 60%;
+      padding: 2px 0px 0px 0px; 
+       
+      transition: ease all .5s;
+      margin: 17px 0px 0px 366px;
+  
+    }
+  /* .response  {
+    transition: ease all .5s;
+    width: 515%;
+    margin: 2px 0px 0px 0px; 
+    
+  } */
+  .center2
+  {
+     width: 60%; 
+      margin: 0px 0px 0px 360px;
+      transition: ease all .5s;
+    
+  }
+  .sol{
+    /* padding-left: 248px; */
+    transition: ease all .5s;
+    padding-top:6px;
+        padding-left: 140px;
+     
+    
+   
+  }
+  
+  .HeroHeading{
+    font-size: 20px;
+    transition: ease all .5s;
+    margin-left: 0px;;
+   
+  }
+  .center1
+  {
+    
+     padding: 0px 0px 10px 0px;
+     
+  }
+   .solve{
+    
+    width: 50%;
+    padding-top: 5px;
+   }
+   }
  

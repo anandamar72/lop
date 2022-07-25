@@ -54,7 +54,7 @@ export default [
           "https://codeforces.com/problemset/problem/486/B"
         ],
 	    	position: 0,
-        "topicName": "Implementation / Constructive"
+        "topicName": "Implementation "
       },
       {
         "questions": [
