@@ -2,7 +2,9 @@ import React, { useState } from "react";
 import "./Header.css";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { Link, useLocation } from "react-router-dom";
- 
+import GithubCorner from "react-github-corner";
+
+
 function Header() {
   const [showMediaIcons, setShowMediaIcons] = useState(false);
   const location = useLocation();
@@ -78,6 +80,12 @@ function Header() {
           <a href="#" onClick={() => setShowMediaIcons(!showMediaIcons)}>
             <GiHamburgerMenu />
           </a>
+        </div>
+        <div className="github">
+
+        <GithubCorner
+        size={100}
+        href="https://github.com/anandamar72/lop/tree/master"/>
         </div>
       </nav>
       {/* <hr /> */}
