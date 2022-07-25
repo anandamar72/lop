@@ -165,7 +165,7 @@ button:hover {
     }
 } */
 
-@media (max-width:1500px)
+@media (max-width:1200px)
 {
     .main-nav{
         height: 7rem;
