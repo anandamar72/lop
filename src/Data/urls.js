@@ -1,7 +1,7 @@
-var urls = {
-    "data": [
-      {
-        "data": [
+export default [
+   {
+   
+        "questions": [
           "https://codeforces.com/problemset/problem/282/A",
           "https://codeforces.com/contest/514/problem/A",
           "https://codeforces.com/problemset/problem/263/A",
@@ -53,10 +53,11 @@ var urls = {
           "https://codeforces.com/problemset/problem/1237/A",
           "https://codeforces.com/problemset/problem/486/B"
         ],
-        "topic": "Implementation / Constructive: (10*5=50)"
+	    	position: 0,
+        "topicName": "Implementation / Constructive"
       },
       {
-        "data": [
+        "questions": [
           "https://codeforces.com/problemset/problem/1337/A",
           "https://codeforces.com/problemset/problem/1389/A",
           "https://codeforces.com/problemset/problem/959/A",
@@ -108,10 +109,12 @@ var urls = {
           "https://codeforces.com/problemset/problem/630/D",
           "https://codeforces.com/problemset/problem/1355/A"
         ],
-        "topic": "Maths: (10*5=50)"
+       		position: 1,
+
+        "topicName": "Maths"
       },
       {
-        "data": [
+        "questions": [
           "https://codeforces.com/contest/371/problem/C",
           "https://codeforces.com/contest/670/problem/D1",
           "https://codeforces.com/contest/287/problem/B",
@@ -125,10 +128,11 @@ var urls = {
           "https://codeforces.com/contest/1288/problem/D",
           "https://codeforces.com/contest/1370/problem/D"
         ],
-        "topic": "Binary Search:"
+        position: 2,
+        "topicName": "Binary Search:"
       },
       {
-        "data": [
+        "questions": [
           "https://www.spoj.com/problems/PRIME1/",
           "https://www.spoj.com/problems/TDPRIMES/",
           "https://www.spoj.com/problems/TDKPRIME/",
@@ -140,10 +144,11 @@ var urls = {
           "https://codeforces.com/contest/1228/problem/C",
           "https://codeforces.com/contest/1101/problem/D"
         ],
-        "topic": "Prime, Sieve, Prime Factorisation:"
+        position: 3,
+        "topicName": "Prime, Sieve, Prime Factorisation:"
       },
       {
-        "data": [
+        "questions": [
           "https://codeforces.com/problemset/problem/912/B",
           "https://codeforces.com/problemset/problem/1594/B",
           "https://codeforces.com/problemset/problem/1097/B",
@@ -156,10 +161,11 @@ var urls = {
           "https://codeforces.com/problemset/problem/1391/D",
           "https://codeforces.com/problemset/problem/1491/D"
         ],
-        "topic": "Bit Manipulation/Power Set:"
+        position: 4,
+        "topicName": "Bit Manipulation/Power Set:"
       },
       {
-        "data": [
+        "questions": [
           "https://codeforces.com/contest/343/problem/B",
           "https://codeforces.com/contest/158/problem/C",
           "https://codeforces.com/contest/5/problem/C",
@@ -174,10 +180,11 @@ var urls = {
           "https://codeforces.com/contest/911/problem/E",
           "https://codeforces.com/contest/507/problem/E?locale=en"
         ],
-        "topic": "Stack/Queues/PriorityQueues:"
+        position: 5,
+        "topicName": "Stack/Queues/PriorityQueues:"
       },
       {
-        "data": [
+        "questions": [
           "https://codeforces.com/problemset/problem/271/D",
           "https://codeforces.com/contest/1326/problem/D2",
           "https://codeforces.com/contest/514/problem/C",
@@ -198,16 +205,18 @@ var urls = {
           "https://www.spoj.com/problems/EPALIN/",
           "https://codeforces.com/contest/1080/problem/E"
         ],
-        "topic": "String Algorithms:"
+        position: 6,
+        "topicName": "String Algorithms:"
       },
       {
-        "data": [
+        "questions": [
           "https://codeforces.com/problemset/problem/1006/F"
         ],
-        "topic": "BFS"
+        position: 7,
+        "topicName": "BFS"
       },
       {
-        "data": [
+        "questions": [
           "https://cses.fi/problemset/task/1674",
           "https://cses.fi/problemset/task/1130",
           "https://codeforces.com/gym/102694/problem/A",
@@ -216,10 +225,11 @@ var urls = {
           "https://cses.fi/problemset/task/1133",
           "https://codeforces.com/contest/1294/problem/F"
         ],
-        "topic": "Tree\u2019s:"
+        position: 8,
+        "topicName": "Tree :"
       },
       {
-        "data": [
+        "questions": [
           "https://codeforces.com/gym/102694/problem/C",
           "https://codeforces.com/gym/102694/problem/D",
           "https://codeforces.com/contest/1328/problem/E",
@@ -233,10 +243,11 @@ var urls = {
           "https://codeforces.com/gym/102694/problem/E",
           "https://codeforces.com/gym/102694/problem/F"
         ],
-        "topic": "LCA"
+        position: 9,
+        "topicName": "LCA"
       },
       {
-        "data": [
+        "questions": [
           "https://codeforces.com/problemset/problem/520/B",
           "https://codeforces.com/problemset/problem/115/A",
           "https://codeforces.com/problemset/problem/580/C",
@@ -260,10 +271,11 @@ var urls = {
           "https://codeforces.com/contest/400/problem/D",
           "https://codeforces.com/contest/178/problem/B3"
         ],
-        "topic": "Graph Algorithms "
+        position: 10,
+        "topicName": "Graph Algorithms "
       },
       {
-        "data": [
+        "questions": [
           "https://codeforces.com/problemset/problem/185/A",
           "https://codeforces.com/contest/1117/problem/D",
           "https://codeforces.com/contest/582/problem/B",
@@ -271,10 +283,11 @@ var urls = {
           "https://codeforces.com/contest/621/problem/E",
           "https://codeforces.com/contest/1182/problem/E"
         ],
-        "topic": "Matrix Exponentiation: (basic to hard sorted)"
+        position: 11,
+        "topicName": "Matrix Exponentiation "
       },
       {
-        "data": [
+        "questions": [
           "https://codeforces.com/contest/706/problem/D",
           "https://codeforces.com/contest/948/problem/D",
           "https://codeforces.com/contest/665/problem/E",
@@ -284,10 +297,11 @@ var urls = {
           "https://codeforces.com/contest/113/problem/B",
           "https://codeforces.com/contest/282/problem/E"
         ],
-        "topic": "Trie:"
+        position: 12,
+        "topicName": "Trie:"
       },
       {
-        "data": [
+        "questions": [
           "https://codeforces.com/problemset/problem/702/A",
           "https://codeforces.com/problemset/problem/894/A",
           "https://codeforces.com/problemset/problem/1501/B",
@@ -324,10 +338,11 @@ var urls = {
           "https://codeforces.com/contest/507/problem/D",
           "https://codeforces.com/contest/540/problem/D"
         ],
-        "topic": "Dynamic Programming:"
+        position: 13,
+        "topicName": "Dynamic Programming:"
       },
       {
-        "data": [
+        "questions": [
           "https://codeforces.com/problemset/problem/1534/C",
           "https://codeforces.com/problemset/problem/217/A",
           "https://codeforces.com/contest/277/problem/A",
@@ -339,10 +354,11 @@ var urls = {
           "https://codeforces.com/problemset/problem/1494/D",
           "https://codeforces.com/problemset/problem/455/C"
         ],
-        "topic": "Disjoint Set:"
+        position: 14,
+        "topicName": "Disjoint Set:"
       },
       {
-        "data": [
+        "questions": [
           "https://codeforces.com/contest/86/problem/D",
           "https://codeforces.com/contest/617/problem/E",
           "https://codeforces.com/contest/220/problem/B",
@@ -350,10 +366,11 @@ var urls = {
           "https://codeforces.com/contest/375/problem/D",
           "https://codeforces.com/contest/242/problem/E"
         ],
-        "topic": "Sqrt Decomposition/ MO\u2019s algo:"
+        position: 15,
+        "topicName": "Sqrt Decomposition/ MO's algo:"
       },
       {
-        "data": [
+        "questions": [
           "https://codeforces.com/contest/61/problem/E",
           "https://codeforces.com/contest/1311/problem/F",
           "https://codeforces.com/contest/283/problem/A",
@@ -367,10 +384,11 @@ var urls = {
           "https://codeforces.com/contest/276/problem/E",
           "https://codeforces.com/contest/375/problem/D"
         ],
-        "topic": "Fenwick Tree:"
+        position: 16,
+        "topicName": "Fenwick Tree:"
       },
       {
-        "data": [
+        "questions": [
           "https://codeforces.com/contest/339/problem/D",
           "https://codeforces.com/contest/914/problem/D",
           "https://codeforces.com/contest/459/problem/D",
@@ -387,10 +405,11 @@ var urls = {
           "https://codeforces.com/contest/1556/problem/E",
           "https://codeforces.com/contest/1567/problem/E"
         ],
-        "topic": "Segment Tree(lazy also included):"
+        position: 17,
+        "topicName": "Segment Tree(lazy also included):"
       },
       {
-        "data": [
+        "questions": [
           "https://codeforces.com/contest/52/problem/C",
           "https://codeforces.com/contest/1023/problem/D",
           "https://codeforces.com/contest/242/problem/E",
@@ -398,11 +417,13 @@ var urls = {
           "https://codeforces.com/contest/145/problem/E",
           "https://codeforces.com/contest/777/problem/E"
         ],
-        "topic": "Lazy propagation:"
+        position: 18,
+        "topicName": "Lazy propagation:"
       }
-    ],
-    "count": 305
-  }
+    
+];
+export const version = 100000020;
+
   
   
-  export default urls
+  

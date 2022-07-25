@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useContext } from "react";
 import "./HeroSection.css";
 
-function Pro({ data, id }) {
+function Pro1({ data, id }) {
   useEffect(() => {
     (async () => {
       const res = await localStorage.getItem(data.position);
@@ -89,8 +89,8 @@ function Pro({ data, id }) {
                     <td data-label="S.No"> {index + 1} </td>
 
                     <td data-label="Problems">
-                      <a href={question.URL} target="_blank" rel="noreferrer">
-                        {question.Problem}
+                      <a href={question} target="_blank" rel="noreferrer">
+                        {question}
                       </a>
                     </td>
                     <td data-label="Status">
@@ -126,4 +126,4 @@ function Pro({ data, id }) {
   );
 }
 
-export default Pro;
+export default Pro1;

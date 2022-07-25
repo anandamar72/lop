@@ -1,6 +1,7 @@
 import React from 'react'
 import Header from './Header'
 import Pro from './Pro'
+import "./HeroSection.css";
 
 function Practise({data}) {
   return (
@@ -9,7 +10,7 @@ function Practise({data}) {
        
        <div className="list">
         <p className="HeroHeading">
-        DSA Sheet by Love Babbar
+        Basic DSA Problems
         </p>
         <hr />
       </div>

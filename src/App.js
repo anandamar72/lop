@@ -15,24 +15,27 @@ import {
 import Striver from "./components/Striver";
 import Favourite from "./components/Favourite";
 import data from "./450DSAFinal"
+import PractiseData from "./Data/PractiseFinal"
+import  striverData from "./Data/urls";
+
 const App = () => {
   return (
     // <>
     <Router>
       <Routes>
-        <Route exact path="/" element={<Practise data={data} />}>
+        <Route exact path="/" element={<Practise data={PractiseData} />}>
           {/* <Practise /> */}
         </Route>
         <Route path="/Love" element={<Love data={data}/>}>
           </Route>
-          <Route path="/Striver" element={<Striver />}>
+          <Route path="/Striver" element={<Striver  data={striverData}/>}>
           </Route>
-          <Route path="/Favourite" element={<Favourite />}>
-          </Route>
-          <Route path="/Login" element={<Login />}>
+          {/* <Route path="/Favourite" element={<Favourite />}>
+          </Route> */}
+          {/* <Route path="/Login" element={<Login />}>
           </Route>
           <Route path="/SignUp" element={<SignUp />}>
-          </Route>
+          </Route> */}
       </Routes>
       
      

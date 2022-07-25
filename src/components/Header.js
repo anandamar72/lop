@@ -49,29 +49,29 @@ function Header() {
                 to="/Striver"
                 rel="noreferrer"
               >
-                Striver's 180
+                Striver's  CP Sheet
               </Link>
             </li>
             <li>
-              <Link
+              {/* <Link
                 className={location.pathname === "/Favourite" ? "active" : ""}
                 to="/Favourite"
                 rel="noreferrer"
               >
                 CS Fundamentals
               </Link>
-            
+             */}
             </li>
           
           </ul>
         </div>
 
         {/* 3rd Login Button */}
-      <Link to ="/Login">
+      {/* <Link to ="/Login">
         <button className="login-btn">
           Login
           </button>
-        </Link>
+        </Link> */}
         {/* Hamburger menu start from here */}
 
         <div className="hamburger-menu">
