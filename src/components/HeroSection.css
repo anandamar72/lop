@@ -183,7 +183,7 @@ width: 100%;
     
     .list  {
     
-      width: 65%;
+      width: 59%;
       padding: 0px 0px 0px 0px; 
       /* background-color: white; */
       transition: ease all .5s;
@@ -213,7 +213,7 @@ width: 100%;
   .HeroHeading{
     font-size: 20px;
     transition: ease all .5s;
-    padding-right: 200px;;
+    padding-right: 10px;;
   }
   .center1
   {
