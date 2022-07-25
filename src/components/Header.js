@@ -85,7 +85,9 @@ function Header() {
 
         <GithubCorner
         size={100}
-        href="https://github.com/anandamar72/lop/tree/master"/>
+        href="https://github.com/anandamar72/lop/tree/master" 
+         target="__blank"
+        />
         </div>
       </nav>
       {/* <hr /> */}
