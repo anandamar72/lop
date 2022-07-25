@@ -22,7 +22,9 @@ export default function Love({data} ) {
         <p className="HeroHeading">
         DSA Sheet by Love Babbar
         </p>
+        <div className="hr">
         <hr />
+        </div>
       </div>
        
 

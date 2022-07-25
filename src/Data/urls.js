@@ -145,7 +145,7 @@ export default [
           "https://codeforces.com/contest/1101/problem/D"
         ],
         position: 3,
-        "topicName": "Prime, Sieve, Prime Factorisation:"
+        "topicName": "Prime Factorisation,Sieve"
       },
       {
         "questions": [
@@ -406,7 +406,7 @@ export default [
           "https://codeforces.com/contest/1567/problem/E"
         ],
         position: 17,
-        "topicName": "Segment Tree(lazy also included):"
+        "topicName": "Segment Tree "
       },
       {
         "questions": [

@@ -129,8 +129,9 @@ width: 100%;
     background-color: #d1e8f5;
   }
   
-  
-@media (max-width: 850px)
+   
+   
+@media (max-width: 1250px)
 {
 .list  {
     
@@ -178,6 +179,55 @@ width: 100%;
 
 }
 
+  @media (min-width:1520px) {
+    
+    .list  {
+    
+      width: 65%;
+      padding: 0px 0px 0px 0px; 
+      /* background-color: white; */
+      transition: ease all .5s;
+      margin: 17px 10px 0px 370px;
+  
+    }
+  .response  {
+    transition: ease all .5s;
+    width: 55%;
+    padding: 0px 0px 0px 350px; 
+    
+  }
+  .center2
+  {
+    width: 180%;
+      margin: 0px 0px 0px 0px;
+      transition: ease all .5s;
+    
+  }
+  .sol{
+    padding-left: 248px;
+    transition: ease all .5s;
+    padding-top:6px;
+  
+  }
+  
+  .HeroHeading{
+    font-size: 20px;
+    transition: ease all .5s;
+    padding-right: 200px;;
+  }
+  .center1
+  {
+    /* background-color: red; */
+     padding: 0px 0px 10px 0px;
+  }
+   .solve{
+    /* background-color: green; */
+    width: 50%;
+    padding-top: 5px;
+   }
+  
+  }
+ 
   
 
 
